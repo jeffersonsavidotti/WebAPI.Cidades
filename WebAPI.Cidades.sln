@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI.Cidades", "WebAPI.Cidades\WebAPI.Cidades.csproj", "{2D0274AA-816D-45AC-9277-B55FD27CFCF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI.Cidades", "WebAPI.Cidades\WebAPI.Cidades.csproj", "{2D0274AA-816D-45AC-9277-B55FD27CFCF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console.CidadeAPI", "Console.CidadeAPI\Console.CidadeAPI.csproj", "{93887580-F92C-443B-BD15-2482D52D3ACC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2D0274AA-816D-45AC-9277-B55FD27CFCF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D0274AA-816D-45AC-9277-B55FD27CFCF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D0274AA-816D-45AC-9277-B55FD27CFCF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93887580-F92C-443B-BD15-2482D52D3ACC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93887580-F92C-443B-BD15-2482D52D3ACC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93887580-F92C-443B-BD15-2482D52D3ACC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93887580-F92C-443B-BD15-2482D52D3ACC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
