@@ -58,6 +58,7 @@ namespace WebAPI.Cidades.Service.CidadeService
                 _context.Add(novaCidade);
                 await _context.SaveChangesAsync();
 
+                serviceResponse.Mensagem = "Cidade salva com sucesso!";
                 serviceResponse.Dados = _context.Cidades.ToList();
             }
             catch (Exception ex)
@@ -100,7 +101,7 @@ namespace WebAPI.Cidades.Service.CidadeService
                 serviceResponse.Dados = _context.Cidades.ToList();
                 if(serviceResponse.Dados.Count == 0) 
                 {
-                    serviceResponse.Mensagem = "Nenhuma dado encontrada!";
+                    serviceResponse.Mensagem = "Nenhum dado encontrado!";
                 }
             }
             catch (Exception ex)
